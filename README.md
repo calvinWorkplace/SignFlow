@@ -4,14 +4,11 @@
   <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart"/>
   <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android"/>
 </p>
-
 <h1 align="center">🤟 SignFlow</h1>
-
 <p align="center">
-  <b>Pembelajaran Hand Sign melalui Aplikasi Mobile Interaktif</b><br/>
-  Meningkatkan komunikasi antara pengguna normal dan disabilitas melalui Bahasa Isyarat Indonesia (BISINDO)
+  <b>Learning Hand Signs through an Interactive Mobile Application</b><br/>
+  Improving communication between hearing and disabled users through Indonesian Sign Language (BISINDO)
 </p>
-
 <p align="center">
   <a href="https://github.com/abeliooo/SignFlow">
     <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github" alt="GitHub"/>
@@ -21,120 +18,94 @@
   </a>
 </p>
 
----
+📖 About SignFlow
+SignFlow is an educational mobile application built with Flutter, designed to teach Indonesian Sign Language (BISINDO) to the general public. The name SignFlow reflects its focus on sign language (Sign) combined with a smooth and structured learning journey (Flow).
+This application was created as a solution to the lack of interactive sign language learning media, leveraging digital technology to support inclusive learning for people with hearing disabilities.
 
-## 📖 Tentang SignFlow
-
-**SignFlow** adalah aplikasi mobile edukatif berbasis Flutter yang dirancang untuk mengajarkan **Bahasa Isyarat Indonesia (BISINDO)** kepada masyarakat umum. Nama *SignFlow* mencerminkan fokus pada bahasa isyarat (*Sign*) dengan alur pembelajaran yang lancar dan terstruktur (*Flow*).
-
-Aplikasi ini hadir sebagai solusi atas minimnya media pembelajaran bahasa isyarat yang interaktif, dengan memanfaatkan teknologi digital untuk mendukung pembelajaran inklusif bagi penyandang disabilitas pendengaran.
-
----
-
-## 🎯 Tujuan
-
+🎯 Objectives
 <table>
   <tr>
     <td align="center" width="33%">
-      <b>♿ Inklusivitas</b><br/>
-      Menyediakan platform pembelajaran Bahasa Isyarat Indonesia yang mudah diakses oleh masyarakat umum.
+      <b>♿ Inclusivity</b><br/>
+      Providing an accessible platform for the general public to learn Indonesian Sign Language.
     </td>
     <td align="center" width="33%">
-      <b>🤝 Komunikasi</b><br/>
-      Meningkatkan kemampuan komunikasi antara pengguna normal dan disabilitas melalui media interaktif.
+      <b>🤝 Communication</b><br/>
+      Improving communication between hearing and disabled users through interactive media.
     </td>
     <td align="center" width="33%">
-      <b>🌍 Kesenjangan Sosial</b><br/>
-      Mengurangi kesenjangan sosial dengan menciptakan masyarakat yang lebih inklusif dan berempati.
+      <b>🌍 Social Gap</b><br/>
+      Reducing social gaps by fostering a more inclusive and empathetic society.
     </td>
   </tr>
 </table>
 
----
-
-## ✨ Fitur Utama
-
+✨ Key Features
 <table>
   <tr>
     <td width="50%">
       <b>🔐 Login & Sign Up</b><br/>
-      Autentikasi menggunakan Firebase Authentication — mendukung login dengan email/password, Google, dan Microsoft. Tersedia fitur <i>Forget Your Password</i> untuk reset password.
+      Authentication using Firebase Authentication — supports login with email/password, Google, and Microsoft. Includes a <i>Forgot Password</i> feature for password reset.
     </td>
     <td width="50%">
-      <b>🏠 Home & Unit Pembelajaran</b><br/>
-      Tampilan unit-unit pembelajaran yang terkunci secara berurutan. Pengguna hanya dapat membuka unit berikutnya setelah menyelesaikan unit sebelumnya.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <b>🎬 Video Tutorial</b><br/>
-      Setiap chapter menampilkan video pembelajaran bahasa isyarat yang disimpan di Firebase Storage. Lesson baru hanya terbuka setelah lesson sebelumnya selesai.
-    </td>
-    <td width="50%">
-      <b>📝 Quiz Interaktif</b><br/>
-      Quiz pilihan ganda di akhir setiap lesson untuk menguji pemahaman. Pengguna memiliki sistem <b>HP (Health Point)</b> — 3 HP default, berkurang setiap jawaban salah.
+      <b>🏠 Home & Learning Units</b><br/>
+      Displays learning units that are locked in sequence. Users can only unlock the next unit after completing the previous one.
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <b>📚 Dictionary (Kamus Isyarat)</b><br/>
-      Referensi kamus bahasa isyarat A–Z dengan video per huruf, dapat diakses kapan saja sebagai referensi visual cepat di luar sesi lesson.
+      <b>🎬 Video Tutorials</b><br/>
+      Each chapter features a sign language learning video stored on Firebase Storage. New lessons unlock only after the previous lesson is completed.
+    </td>
+    <td width="50%">
+      <b>📝 Interactive Quiz</b><br/>
+      Multiple-choice quiz at the end of each lesson to test understanding. Users have an <b>HP (Health Point)</b> system — starting with 3 HP, decreasing with each wrong answer.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <b>📚 Dictionary (Sign Language Dictionary)</b><br/>
+      An A–Z sign language dictionary with videos for each letter, accessible at any time as a quick visual reference outside of lessons.
     </td>
     <td width="50%">
       <b>👤 Profile & Daily Streak</b><br/>
-      Halaman profil dengan fitur daily streak, riwayat pembelian HP, langganan (subscription), dan sertifikat yang dapat diunduh dan dibagikan.
+      Profile page featuring a daily streak, HP purchase history, subscriptions, and certificates that can be downloaded and shared.
     </td>
   </tr>
 </table>
 
----
-
-## 📸 Screenshots
-
-### 🔐 Login Page
-
+📸 Screenshots
+🔐 Login Page
 <p align="center">
   <img src="assets/screenshots/login1.jpg" width="220" alt="Login Page 1"/>
   &nbsp;&nbsp;
   <img src="assets/screenshots/login2.jpg" width="220" alt="Login Page 2"/>
 </p>
-
 <p align="center">
-  Halaman awal untuk pengguna masuk ke dalam aplikasi. Mendukung login via email, Google, dan Microsoft.
+  The initial page for users to enter the application. Supports login via email, Google, and Microsoft.
 </p>
 
----
-
-### 🏠 Home Page
-
+🏠 Home Page
 <p align="center">
   <img src="assets/screenshots/home1.jpg" width="220" alt="Home Page 1"/>
   &nbsp;&nbsp;
   <img src="assets/screenshots/home2.jpg" width="220" alt="Home Page 2"/>
 </p>
-
 <p align="center">
-  Pengguna disambut dengan unit-unit pembelajaran. Setiap unit berisi chapter dengan video pembelajaran tematik.
+  Users are greeted with learning units. Each unit contains chapters with thematic learning videos.
 </p>
 
----
-
-### 🎬 Video Tutorial Page
-
+🎬 Video Tutorial Page
 <p align="center">
   <img src="assets/screenshots/video1.jpg" width="220" alt="Video Tutorial 1"/>
   &nbsp;&nbsp;
   <img src="assets/screenshots/video2.jpg" width="220" alt="Video Tutorial 2"/>
 </p>
-
 <p align="center">
-  Menampilkan video pembelajaran bahasa isyarat. Setiap lesson baru hanya terbuka setelah lesson sebelumnya selesai.
+  Displays sign language learning videos. New lessons unlock only after the previous lesson is completed.
 </p>
 
----
-
-### 📝 Quiz Page
-
+📝 Quiz Page
 <p align="center">
   <img src="assets/screenshots/quiz1.jpg" width="220" alt="Quiz 1"/>
   &nbsp;&nbsp;
@@ -142,37 +113,27 @@ Aplikasi ini hadir sebagai solusi atas minimnya media pembelajaran bahasa isyara
   &nbsp;&nbsp;
   <img src="assets/screenshots/quiz_hp1.jpg" width="220" alt="Quiz HP"/>
 </p>
-
 <p align="center">
-  Quiz pilihan ganda di akhir setiap lesson. Jawaban salah akan mengurangi HP pengguna.
+  Multiple-choice quiz at the end of each lesson. Wrong answers will reduce the user's HP.
 </p>
-
 <p align="center">
   <img src="assets/screenshots/quiz_purchase1.jpg" width="220" alt="Purchase HP"/>
 </p>
-
 <p align="center">
-  Jika HP habis, pengguna dapat membeli HP tambahan untuk melanjutkan pembelajaran.
+  If HP runs out, users can purchase additional HP to continue learning.
 </p>
 
----
-
-### 📚 Dictionary Page
-
+📚 Dictionary Page
 <p align="center">
   <img src="assets/screenshots/dictionary1.jpg" width="220" alt="Dictionary 1"/>
   &nbsp;&nbsp;
   <img src="assets/screenshots/dictionary2.jpg" width="220" alt="Dictionary 2"/>
 </p>
-
 <p align="center">
-  Kamus isyarat A–Z dengan video pendek per huruf sebagai referensi visual cepat.
+  An A–Z sign language dictionary with short videos for each letter as a quick visual reference.
 </p>
 
----
-
-### 👤 Profile Page
-
+👤 Profile Page
 <p align="center">
   <img src="assets/screenshots/profile1.jpg" width="220" alt="Profile 1"/>
   &nbsp;&nbsp;
@@ -180,118 +141,86 @@ Aplikasi ini hadir sebagai solusi atas minimnya media pembelajaran bahasa isyara
   &nbsp;&nbsp;
   <img src="assets/screenshots/profile_edit1.jpg" width="220" alt="Profile Edit"/>
 </p>
-
 <p align="center">
   <img src="assets/screenshots/subscription1.jpg" width="220" alt="Subscription"/>
   &nbsp;&nbsp;
   <img src="assets/screenshots/help1.jpg" width="220" alt="Help & Support"/>
 </p>
-
 <p align="center">
-  Halaman profil dengan daily streak, edit data pribadi, langganan (3 jenis), sertifikat, dan Help & Support.
+  Profile page featuring daily streak, personal data editing, subscriptions (3 types), certificates, and Help & Support.
 </p>
 
----
-
-## 🛠️ Teknologi
-
+🛠️ Technologies
 <table>
   <tr>
-    <th align="center">Teknologi</th>
-    <th align="center">Kegunaan</th>
+    <th align="center">Technology</th>
+    <th align="center">Purpose</th>
   </tr>
   <tr>
     <td align="center"><b>Flutter</b></td>
-    <td>Desain antarmuka interaktif, navigasi antar halaman, animasi & media, cross-platform, integrasi plugin</td>
+    <td>Interactive UI design, page navigation, animations & media, cross-platform support, plugin integration</td>
   </tr>
   <tr>
     <td align="center"><b>Firebase Authentication</b></td>
-    <td>Login/Sign Up via email, Google, dan Microsoft</td>
+    <td>Login/Sign Up via email, Google, and Microsoft</td>
   </tr>
   <tr>
     <td align="center"><b>Cloud Firestore</b></td>
-    <td>Menyimpan progres belajar, hasil quiz, streak, dan preferensi pengguna</td>
+    <td>Storing learning progress, quiz results, streaks, and user preferences</td>
   </tr>
   <tr>
     <td align="center"><b>Firebase Storage</b></td>
-    <td>Penyimpanan dan streaming video pembelajaran bahasa isyarat</td>
+    <td>Storage and streaming of sign language learning videos</td>
   </tr>
 </table>
 
----
+⚙️ Prerequisites
+Before running this project, make sure you have installed:
 
-## ⚙️ Prasyarat
+Flutter SDK (latest stable version)
+Dart SDK (included with Flutter)
+Android Studio or VS Code with the Flutter extension
+A Firebase account for backend configuration
 
-Sebelum menjalankan proyek ini, pastikan Anda telah menginstall:
 
-- [Flutter SDK](https://flutter.dev/docs/get-started/install) (versi stabil terbaru)
-- [Dart SDK](https://dart.dev/get-dart) (sudah termasuk di Flutter)
-- [Android Studio](https://developer.android.com/studio) atau VS Code dengan ekstensi Flutter
-- Akun [Firebase](https://firebase.google.com/) untuk konfigurasi backend
-
----
-
-## 🚀 Cara Instalasi
-
-**1. Clone repository**
-
-```bash
-git clone https://github.com/abeliooo/SignFlow.git
+🚀 Installation Guide
+1. Clone the repository
+bashgit clone https://github.com/abeliooo/SignFlow.git
 cd SignFlow
-```
+2. Install dependencies
+bashflutter pub get
+3. Configure Firebase
 
-**2. Install dependencies**
+Create a project in the Firebase Console
+Download the google-services.json file and place it in the android/app/ folder
+Enable Firebase Authentication, Firestore, and Storage
 
-```bash
-flutter pub get
-```
-
-**3. Konfigurasi Firebase**
-
-- Buat project di [Firebase Console](https://console.firebase.google.com/)
-- Download file `google-services.json` dan letakkan di folder `android/app/`
-- Aktifkan Firebase Authentication, Firestore, dan Storage
-
-**4. Jalankan aplikasi**
-
-```bash
-flutter run
-```
-
----
+4. Run the application
+bashflutter run
 
 <details>
-<summary><b>ℹ️ Catatan Developer (Klik untuk buka)</b></summary>
-
+<summary><b>ℹ️ Developer Notes (Click to expand)</b></summary>
 <br/>
+This repository contains 2 versions of the application:
+FolderDescriptionwithGoogleSignInFull version with Google & Microsoft login support (requires OAuth configuration)justLocalVersion that uses only a dummy email for local testing
+Debug Feature (Reset Button):
 
-Terdapat 2 versi aplikasi dalam repository ini:
+A reset button is available in the top-right corner for debugging purposes. This button can reset:
 
-| Folder | Keterangan |
-|--------|-----------|
-| `withGoogleSignIn` | Versi lengkap dengan dukungan login Google & Microsoft (memerlukan konfigurasi OAuth) |
-| `justLocal` | Versi yang hanya menggunakan dummy email untuk pengujian lokal |
-
-**Fitur Debug (Reset Button):**
-Di pojok kanan atas terdapat tombol reset untuk keperluan debugging. Tombol ini dapat mereset:
-- Progress lesson pengguna
-- Daily streak
-- HP (Health Point)
+User lesson progress
+Daily streak
+HP (Health Point)
 
 </details>
 
----
-
-## 👥 Tim Pengembang
-
+👥 Development Team
 <p align="center">
-  Proyek ini dikembangkan oleh <b>Group 10</b> — AOL Software Engineering
+  This project was developed by <b>Group 10</b> — AOL Software Engineering
 </p>
-
 <table align="center">
   <tr>
     <th>NIM</th>
-    <th>Nama</th>
+    <th>Name</th>
   </tr>
   <tr>
     <td>2702225612</td>
@@ -314,8 +243,6 @@ Di pojok kanan atas terdapat tombol reset untuk keperluan debugging. Tombol ini 
     <td>Stefanus Abel Fillio</td>
   </tr>
 </table>
-
----
 
 <p align="center">
   Made with ❤️ for a more inclusive world
