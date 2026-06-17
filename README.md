@@ -1,43 +1,3 @@
-
-Claude finished the response
-https://drive.google.com/file/d/1jyJlECZ4Q-5kAXMoMTOvX7dH-10qZCkv/view?usp=sharing
-tambahkan link demo di readme md ini
-
-21:28
-
-Grappled dengan akses Google Drive dan mengidentifikasi informasi yang diperlukan
-Grappled dengan akses Google Drive dan mengidentifikasi informasi yang diperlukan
-Dua hal yang saya butuhkan:
-
-Demo link — URL-nya apa?
-File README — saya tidak bisa akses Google Drive langsung. Tolong paste isi README.md-nya di sini.
-
-<p align="center"> <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter"/> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase"/> <img src="https://img.shields.io
-
-pasted
-
-ini demo linknya:  https://drive.google.com/file/d/1jyJlECZ4Q-5kAXMoMTOvX7dH-10qZCkv/view?usp=sharing
-
-21:28
-
-Strategized integrating demo link into README badges section
-Strategized integrating demo link into README badges section
-Sudah ditambahkan. Badge Demo Video (Google Drive) disisipkan di baris badge bawah header, sejajar dengan GitHub dan Figma.
-
-
-Readme
-Document · MD 
-
-Claude Fable 5 is currently unavailable.
-Learn more(opens in new tab)
-
-
-
-
-Claude is AI and can make mistakes. Please double-check responses.
-
-
-Readme · MD
 <p align="center">
   <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter"/>
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase"/>
@@ -60,10 +20,11 @@ Readme · MD
     <img src="https://img.shields.io/badge/Demo-Video-4285F4?style=flat-square&logo=google-drive&logoColor=white" alt="Demo"/>
   </a>
 </p>
+
 📖 About SignFlow
 SignFlow is an educational mobile application built with Flutter, designed to teach Indonesian Sign Language (BISINDO) to the general public. The name SignFlow reflects its focus on sign language (Sign) combined with a smooth and structured learning journey (Flow).
 This application was created as a solution to the lack of interactive sign language learning media, leveraging digital technology to support inclusive learning for people with hearing disabilities.
- 
+
 🎯 Objectives
 <table>
   <tr>
@@ -81,6 +42,7 @@ This application was created as a solution to the lack of interactive sign langu
     </td>
   </tr>
 </table>
+
 ✨ Key Features
 <table>
   <tr>
@@ -114,6 +76,7 @@ This application was created as a solution to the lack of interactive sign langu
     </td>
   </tr>
 </table>
+
 📸 Screenshots
 🔐 Login Page
 <p align="center">
@@ -124,6 +87,7 @@ This application was created as a solution to the lack of interactive sign langu
 <p align="center">
   The initial page for users to enter the application. Supports login via email, Google, and Microsoft.
 </p>
+
 🏠 Home Page
 <p align="center">
   <img src="assets/screenshots/home1.jpg" width="220" alt="Home Page 1"/>
@@ -133,6 +97,7 @@ This application was created as a solution to the lack of interactive sign langu
 <p align="center">
   Users are greeted with learning units. Each unit contains chapters with thematic learning videos.
 </p>
+
 🎬 Video Tutorial Page
 <p align="center">
   <img src="assets/screenshots/video1.jpg" width="220" alt="Video Tutorial 1"/>
@@ -142,6 +107,7 @@ This application was created as a solution to the lack of interactive sign langu
 <p align="center">
   Displays sign language learning videos. New lessons unlock only after the previous lesson is completed.
 </p>
+
 📝 Quiz Page
 <p align="center">
   <img src="assets/screenshots/quiz1.jpg" width="220" alt="Quiz 1"/>
@@ -159,6 +125,7 @@ This application was created as a solution to the lack of interactive sign langu
 <p align="center">
   If HP runs out, users can purchase additional HP to continue learning.
 </p>
+
 📚 Dictionary Page
 <p align="center">
   <img src="assets/screenshots/dictionary1.jpg" width="220" alt="Dictionary 1"/>
@@ -168,6 +135,7 @@ This application was created as a solution to the lack of interactive sign langu
 <p align="center">
   An A–Z sign language dictionary with short videos for each letter as a quick visual reference.
 </p>
+
 👤 Profile Page
 <p align="center">
   <img src="assets/screenshots/profile1.jpg" width="220" alt="Profile 1"/>
@@ -184,6 +152,7 @@ This application was created as a solution to the lack of interactive sign langu
 <p align="center">
   Profile page featuring daily streak, personal data editing, subscriptions (3 types), certificates, and Help & Support.
 </p>
+
 🛠️ Technologies
 <table>
   <tr>
@@ -207,15 +176,16 @@ This application was created as a solution to the lack of interactive sign langu
     <td>Storage and streaming of sign language learning videos</td>
   </tr>
 </table>
+
 ⚙️ Prerequisites
 Before running this project, make sure you have installed:
- 
+
 Flutter SDK (latest stable version)
 Dart SDK (included with Flutter)
 Android Studio or VS Code with the Flutter extension
 A Firebase account for backend configuration
- 
- 
+
+
 🚀 Installation Guide
 1. Clone the repository
 bashgit clone https://github.com/abeliooo/SignFlow.git
@@ -223,25 +193,29 @@ cd SignFlow
 2. Install dependencies
 bashflutter pub get
 3. Configure Firebase
+
 Create a project in the Firebase Console
 Download the google-services.json file and place it in the android/app/ folder
 Enable Firebase Authentication, Firestore, and Storage
- 
+
 4. Run the application
 bashflutter run
+
 <details>
 <summary><b>ℹ️ Developer Notes (Click to expand)</b></summary>
 <br/>
 This repository contains 2 versions of the application:
 FolderDescriptionwithGoogleSignInFull version with Google & Microsoft login support (requires OAuth configuration)justLocalVersion that uses only a dummy email for local testing
 Debug Feature (Reset Button):
+
 A reset button is available in the top-right corner for debugging purposes. This button can reset:
- 
+
 User lesson progress
 Daily streak
 HP (Health Point)
- 
+
 </details>
+
 👥 Development Team
 <p align="center">
   This project was developed by <b>Group 10</b> — AOL Software Engineering
@@ -272,7 +246,7 @@ HP (Health Point)
     <td>Stefanus Abel Fillio</td>
   </tr>
 </table>
+
 <p align="center">
   Made with ❤️ for a more inclusive world
 </p>
- 
